@@ -1,1 +1,31 @@
-@font .scss;
+@charset "UTF-8";
+@font-face {
+  font-family: 'montserrat';
+  src: url(../fonts/montserrat/fontkhasanov.eot?dn34wl);
+  src: url(../fonts/montserrat/fontkhasanov.eot?dn34wl#iefix) format("embedded-opentype"), url(../fonts/montserrat/fontkhasanov.ttf?dn34wl) format("truetype"), url(../fonts/montserrat/fontkhasanov.woff?dn34wl) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway_bold';
+  src: url("../fonts/raleway/raleway-bold.eot");
+  src: local("☺"), url("../fonts/raleway/raleway-bold.woff") format("woff"), url("../fonts/raleway/raleway-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway_medium';
+  src: url("../fonts/raleway/raleway-medium.eot");
+  src: local("☺"), url("../fonts/raleway/raleway-medium.woff") format("woff"), url("../fonts/raleway/raleway-medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'raleway_semibold';
+  src: url("../fonts/raleway/raleway-semiBold.eot");
+  src: local("☺"), url("../fonts/raleway/raleway-semiBold.woff") format("woff"), url("../fonts/raleway/raleway-semiBold.ttf") format("truetype"), url("../fonts/raleway/raleway-semiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+header {
+  background: url("../img/photo.jpg");
+}
