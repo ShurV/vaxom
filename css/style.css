@@ -27,5 +27,11 @@
   font-style: normal;
 }
 header {
-  background: url("../img/photo.jpg");
+  background-image: url("../img/photo.jpg");
+  width: 1920px;
+  color: #fff;
+}
+
+body {
+  margin: 0 auto;
 }
