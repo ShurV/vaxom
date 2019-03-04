@@ -15,7 +15,7 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: 'raleway_medium';
+	font-family: 'raleway_med';
 	src: url('../fonts/raleway/raleway-medium.eot');
 	src: local('☺'), 
 	url('../fonts/raleway/raleway-medium.woff') format('woff'), url('../fonts/raleway/raleway-medium.ttf') format('truetype'); 
@@ -28,4 +28,14 @@
 		url('../fonts/raleway/raleway-semiBold.woff') format('woff'), url('../fonts/raleway/raleway-semiBold.ttf') format('truetype'), url('../fonts/raleway/raleway-semiBold.svg') format('svg');
 	font-weight: 600;
 	font-style: normal;
+}
+@font-face {
+  font-family: "raleway_reg";
+
+  src: url("../fonts/raleway/raleway-regular.otf") format("opentype"),
+    url("../fonts/raleway/raleway-regular.ttf") format("truetype"),
+    url("../fonts/raleway/raleway-regular.woff") format("woff"),
+    url("../fonts/raleway/raleway-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
 }

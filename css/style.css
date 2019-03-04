@@ -14,7 +14,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'raleway_medium';
+  font-family: 'raleway_med';
   src: url("../fonts/raleway/raleway-medium.eot");
   src: local("☺"), url("../fonts/raleway/raleway-medium.woff") format("woff"), url("../fonts/raleway/raleway-medium.ttf") format("truetype");
   font-weight: 500;
@@ -26,12 +26,83 @@
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: "raleway_reg";
+  src: url("../fonts/raleway/raleway-regular.otf") format("opentype"), url("../fonts/raleway/raleway-regular.ttf") format("truetype"), url("../fonts/raleway/raleway-regular.woff") format("woff"), url("../fonts/raleway/raleway-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
 header {
   background-image: url("../img/photo.jpg");
-  width: 1920px;
+  width: 100%;
+  height: 100vh;
   color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 181px;
+  text-decoration: none;
+  background-color: #484642;
+}
+
+.logo-svg {
+  fill: #fff;
+}
+
+.logo-txt {
+  font-family: raleway_reg;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.logo:hover .logo-svg {
+  fill: #998675;
+}
+
+.logo:hover .logo-txt {
+  color: #998675;
+}
+
+.header_top {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.header_nav ul {
+  list-style-type: none;
+  width: 1170px;
+  /* можно попробовать задать min-width и max-width */
+  padding: 0;
+  border: 1px solid black;
+  background-color: #36393c;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  /* border: 1px solid black; */
+  /* background-color: #ccc; */
 }
 
 body {
   margin: 0 auto;
+  width: 1920px;
 }
